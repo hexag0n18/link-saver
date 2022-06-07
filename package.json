@@ -1,0 +1,23 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build --prefix backend",
+    "start": "npm start --prefix backend",
+    "preinstall": "npm install --prefix client",
+    "install": "npm install --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hexag0n18/link-saver.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hexag0n18/link-saver/issues"
+  },
+  "homepage": "https://github.com/hexag0n18/link-saver#readme"
+}
