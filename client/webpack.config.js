@@ -4,7 +4,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const { argv } = require('process')
 const tailwindcss = require('tailwindcss')
 const dotenv = require('dotenv').config({
-  path: path.join(__dirname, '.env')
+  path: path.join(__dirname, '../.env')
 }).parsed
 
 const mode = dotenv.APP_ENV || 'production'
