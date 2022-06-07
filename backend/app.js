@@ -36,6 +36,8 @@ app.use(
 app.use(routes);
 
 app.use(express.static(join(__dirname, '../client/dist')))
-console.log(__dirname)
+app.get('*', (req, res) => {
+  res.sendFile(join(__dirname, '../client/dist/index.html'))
+})
 
 export default app;

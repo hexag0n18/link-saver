@@ -31,7 +31,7 @@ export const createLink = async (req, res) => {
 		res.json(new_link);
 	} catch (error) {
 		console.log(error);
-		return res.status(500).json({ message: error.message });
+		return res.status(501).json({ message: error.message });
 	}
 };
 
